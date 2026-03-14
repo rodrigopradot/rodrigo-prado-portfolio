@@ -176,7 +176,7 @@ let twIndex = 0;
 let twCharIndex = 0;
 let twDeleting = false;
 let twTimeout = null;
-let currentLang = 'en';
+let currentLang = 'es';
 
 function typewriterStep() {
   const phrases = typewriterPhrases[currentLang];
@@ -303,7 +303,7 @@ function initSmoothScroll() {
 /* ─── INIT ───────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
   setYear();
-  applyLang('en');
+  applyLang('es');
   initScrollObserver();
   initNavScroll();
   initMobileMenu();
