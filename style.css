@@ -638,6 +638,11 @@ img {
   margin-bottom: 1.25rem;
 }
 
+[data-lang="es"] .contact__title {
+  padding-left: 0.15em;
+  text-indent: -0.15em;
+}
+
 .contact__sub {
   font-size: 1.0625rem;
   color: var(--text-muted);
@@ -694,6 +699,115 @@ img {
 
 .footer__built {
   font-style: italic;
+}
+
+/* ─── NAV ACTIVE ─────────────────────────────────────────── */
+.nav__link--active {
+  color: var(--accent);
+}
+
+/* ─── PROJECTS PAGE ──────────────────────────────────────── */
+.projects-hero {
+  padding: calc(var(--nav-h) + 5rem) 0 4rem;
+}
+
+.projects-hero__title {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: -0.04em;
+  color: var(--text);
+  margin-top: 0.75rem;
+}
+
+.projects-list {
+  padding-bottom: 6rem;
+}
+
+.project-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  border-top: 1px solid var(--border);
+  min-height: 480px;
+}
+
+.project-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+
+.project-item__image {
+  background: var(--bg-alt);
+  min-height: 360px;
+}
+
+.project-item__content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.project-item__meta {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.project-item__title {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.project-item__desc {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  max-width: 42ch;
+}
+
+.project-item__link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  transition: color 0.2s var(--ease), gap 0.2s var(--ease);
+  gap: 0.25rem;
+  width: fit-content;
+  margin-top: 0.5rem;
+}
+
+.project-item__link:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .project-item {
+    grid-template-columns: 1fr;
+    min-height: unset;
+  }
+
+  .project-item__image {
+    min-height: 260px;
+    order: -1;
+  }
+
+  .project-item__content {
+    padding: 2.5rem 2rem;
+  }
+
+  .projects-hero {
+    padding: calc(var(--nav-h) + 3rem) 0 2.5rem;
+  }
 }
 
 /* ─── ANIMATIONS ─────────────────────────────────────────── */

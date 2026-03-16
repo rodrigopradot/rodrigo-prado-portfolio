@@ -81,6 +81,23 @@ const content = {
     contact_sub: 'Open to new opportunities in technology leadership,<br>digital transformation, and product strategy.',
 
     footer_built: 'Built with purpose',
+
+    nav_projects: 'Projects',
+    projects_label: 'Work',
+    projects_title: 'Selected<br>Projects',
+    proj1_cat: 'FINTECH',
+    proj1_title: 'Dynamic Pricing Platform',
+    proj1_desc: 'Scalable web architecture with real-time dynamic pricing and demand estimation engines, achieving a +22% improvement in sales funnel conversion at Transvip.',
+    proj2_cat: 'IOT',
+    proj2_title: 'Smart Gas Metering System',
+    proj2_desc: 'End-to-end IoT solution for digital gas meters at Gasco, reducing measurement costs by 18% and non-payment rates by 7% through real-time data and automated alerting.',
+    proj3_cat: 'E-HEALTH',
+    proj3_title: 'UMAQ Home Diagnostics',
+    proj3_desc: 'Co-founded an e-health startup enabling remote medical diagnosis via portable devices, ML models, and cloud infrastructure — securing funding and strategic alliances in healthcare and mining.',
+    proj4_cat: 'CLOUD',
+    proj4_title: 'FinOps Cloud Optimization',
+    proj4_desc: 'Cross-cloud cost optimization program across AWS and GCP infrastructure, delivering a 37% reduction in cloud spend while maintaining platform performance and reliability.',
+    proj_view: 'View Project →',
   },
   es: {
     nav_about: 'Perfil',
@@ -163,6 +180,23 @@ const content = {
     contact_sub: 'Abierto a nuevas oportunidades en liderazgo tecnológico,<br>transformación digital y estrategia de producto.',
 
     footer_built: 'Construido con propósito',
+
+    nav_projects: 'Proyectos',
+    projects_label: 'Trabajo',
+    projects_title: 'Proyectos<br>Destacados',
+    proj1_cat: 'FINTECH',
+    proj1_title: 'Plataforma de Pricing Dinámico',
+    proj1_desc: 'Arquitectura web escalable con motores de pricing dinámico y estimación de demanda en tiempo real, logrando un +22% de mejora en la tasa de conversión del funnel de ventas en Transvip.',
+    proj2_cat: 'IOT',
+    proj2_title: 'Sistema de Medición Inteligente de Gas',
+    proj2_desc: 'Solución IoT end-to-end para medidores digitales de gas en Gasco, reduciendo costos de medición en 18% y tasas de no pago en 7% mediante datos en tiempo real y alertas automáticas.',
+    proj3_cat: 'E-HEALTH',
+    proj3_title: 'Diagnóstico Domiciliario UMAQ',
+    proj3_desc: 'Co-fundé una startup de e-health para diagnóstico médico remoto mediante dispositivos portátiles, modelos ML e infraestructura cloud — levantando financiamiento y alianzas estratégicas en salud y minería.',
+    proj4_cat: 'CLOUD',
+    proj4_title: 'Optimización Cloud FinOps',
+    proj4_desc: 'Programa de optimización de costos cloud en infraestructura AWS y GCP, logrando una reducción del 37% en gasto cloud manteniendo rendimiento y confiabilidad de la plataforma.',
+    proj_view: 'Ver Proyecto →',
   },
 };
 
