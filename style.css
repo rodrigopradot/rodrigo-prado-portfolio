@@ -740,6 +740,15 @@ img {
 .project-item__image {
   background: var(--bg-alt);
   min-height: 360px;
+  position: relative;
+}
+
+.project-item__image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-shadow: inset 0 0 80px 20px var(--bg);
+  pointer-events: none;
 }
 
 .project-item__content {
