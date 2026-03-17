@@ -743,19 +743,48 @@ img {
   position: relative;
 }
 
-.project-item__video {
+.project-item__yt-thumb {
   position: relative;
+  display: block;
   overflow: hidden;
   min-height: 360px;
 }
 
-.project-item__video iframe {
-  position: absolute;
-  inset: 0;
+.project-item__yt-thumb img {
   width: 100%;
   height: 100%;
-  border: 0;
+  object-fit: cover;
   display: block;
+  transition: transform 0.4s var(--ease);
+}
+
+.project-item__yt-thumb:hover img {
+  transform: scale(1.03);
+}
+
+.project-item__yt-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.25);
+  transition: background 0.3s var(--ease);
+}
+
+.project-item__yt-thumb:hover .project-item__yt-play {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.project-item__yt-play svg {
+  width: 68px;
+  height: 48px;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+  transition: transform 0.3s var(--ease);
+}
+
+.project-item__yt-thumb:hover .project-item__yt-play svg {
+  transform: scale(1.1);
 }
 
 .project-item__image::after {
